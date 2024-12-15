@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                     // Define a versão do JavaScript gerado
+    "module": "commonjs",                // Define o sistema de módulos
+    "rootDir": "src",                    // Define a pasta onde os arquivos TypeScript estão
+    "outDir": "dist",                    // Define a pasta onde os arquivos compilados serão gerados
+    "strict": true,                      // Ativa todas as verificações estritas de tipo
+    "esModuleInterop": true,             // Melhora a compatibilidade com módulos ES6
+    "skipLibCheck": true                 // Ignora verificação de arquivos de biblioteca
+  },
+  "include": [
+    "src/**/*"                           // Inclui todos os arquivos da pasta `src`
+  ],
+  "exclude": [
+    "node_modules",                      // Exclui a pasta `node_modules` da compilação
+    "dist"                               // Exclui a pasta `dist` da compilação
+  ]
+}
